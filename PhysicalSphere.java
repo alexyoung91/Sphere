@@ -45,7 +45,7 @@ public class PhysicalSphere extends Sphere {
 	
 	public void randomFunction()
 	{
-		double a = 1;
+		double a = 2;
 	}
 	
 }
