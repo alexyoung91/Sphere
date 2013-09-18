@@ -34,4 +34,9 @@ public class PhysicalSphere extends Sphere {
 		color = a_color;
 	}
 	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
 }
