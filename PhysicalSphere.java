@@ -39,4 +39,8 @@ public class PhysicalSphere extends Sphere {
 		System.out.println("Hello");
 	}
 	
+	public void SqeeuzeThatJuiceSir() {
+		System.out.println("It has been squeezed!");
+	}
+	
 }
