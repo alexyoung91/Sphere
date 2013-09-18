@@ -3,7 +3,7 @@ public class Sphere {
 	private double volume;
 
 	public Sphere() {
-		radius = mass = volume = 0.0;
+		radius = volume = 0.0;
 	}
 	
 	public Sphere(double a_radius) {
