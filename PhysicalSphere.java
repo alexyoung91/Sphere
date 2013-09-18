@@ -1,3 +1,7 @@
+/*
+ * Incomplete, not functional yet
+ */
+
 public class PhysicalSphere extends Sphere {
 	private double density;
 	private double mass;
