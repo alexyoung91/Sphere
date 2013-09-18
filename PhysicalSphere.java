@@ -48,4 +48,9 @@ public class PhysicalSphere extends Sphere {
 		double a = 1;
 	}
 	
+	public void rubbish()
+	{
+	
+	}
+	
 }
