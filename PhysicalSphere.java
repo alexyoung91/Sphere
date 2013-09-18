@@ -48,4 +48,9 @@ public class PhysicalSphere extends Sphere {
 	
 	}
 	
+	public void rubbishOnMasterBranch()
+	{
+	
+	}
+	
 }
