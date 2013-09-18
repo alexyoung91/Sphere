@@ -43,4 +43,9 @@ public class PhysicalSphere extends Sphere {
 		System.out.println("It has been squeezed!");
 	}
 	
+	public void randomFunction()
+	{
+		double a = 1;
+	}
+	
 }
