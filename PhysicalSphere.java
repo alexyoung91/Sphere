@@ -29,4 +29,9 @@ public class PhysicalSphere extends Sphere {
 		return mass;
 	}
 	
+	public void hello()
+	{
+		System.out.println("Hello");
+	}
+	
 }
