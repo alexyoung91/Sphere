@@ -10,4 +10,12 @@ public class Sphere {
 	public Sphere(double a_radius) {
 		radius = a_radius;
 	}
+	
+	public void setRadius(double a_radius) {
+		radius = a_radius;
+	}
+	
+	public double getRadius() {
+		return radius;
+	}
 }
