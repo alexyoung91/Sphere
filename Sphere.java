@@ -1,6 +1,5 @@
 public class Sphere {
 	private double radius;
-	private double mass;
 	private double volume;
 
 	public Sphere() {
