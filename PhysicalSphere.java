@@ -5,7 +5,7 @@
 public class PhysicalSphere extends Sphere {
 	private double density;
 	private double mass;
-	private int color;
+	private Color color;
 	
 	public PhysicalSphere(double a_radius, double a_density) {
 		super(a_radius);
@@ -17,6 +17,10 @@ public class PhysicalSphere extends Sphere {
 		mass = volume * density;
 	}
 	
+	public void setColor(Color a_color) {
+		color = a_color;
+	}
+	
 	public double getDensity() {
 		return density;
 	}
@@ -25,7 +29,5 @@ public class PhysicalSphere extends Sphere {
 		return mass;
 	}
 	
-	public void setColor(int a_color) {
-		color = a_color;
-	}	
+	
 }
