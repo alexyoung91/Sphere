@@ -27,30 +27,5 @@ public class PhysicalSphere extends Sphere {
 	
 	public void setColor(int a_color) {
 		color = a_color;
-	}
-	
-	public void hello()
-	{
-		System.out.println("Hello");
-	}
-	
-	public void SqeeuzeThatJuiceSir() {
-		System.out.println("It has been squeezed!");
-	}
-	
-	public void randomFunction()
-	{
-		double a = 2;
-	}
-	
-	public void rubbish()
-	{
-	
-	}
-	
-	public void rubbishOnMasterBranch()
-	{
-	
-	}
-	
+	}	
 }
