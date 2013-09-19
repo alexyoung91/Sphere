@@ -1,6 +1,4 @@
-/*
- * Incomplete, not functional yet
- */
+import java.awt.Color;
 
 public class PhysicalSphere extends Sphere {
 	private double density;
@@ -21,6 +19,21 @@ public class PhysicalSphere extends Sphere {
 		color = a_color;
 	}
 	
+	public void setRadius(double a_radius) {
+		super.setRadius(a_radius);
+		setDensity(density);
+	}
+	
+	public void setVolume(double a_volume) {
+		super.setVolume(a_volume);
+		setDensity(density);
+	}
+	
+	public void setSurfaceArea(double a_surfaceArea) {
+		super.setSurfaceArea(a_surfaceArea);
+		setDensity(density);
+	}
+	
 	public double getDensity() {
 		return density;
 	}
@@ -28,6 +41,4 @@ public class PhysicalSphere extends Sphere {
 	public double getMass() {
 		return mass;
 	}
-	
-	
 }
