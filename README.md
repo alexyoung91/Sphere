@@ -1,5 +1,5 @@
 Sphere
 ====================
 
-A set of java classes to model Spheres.
+A set of java classes that model Spheres.
 
